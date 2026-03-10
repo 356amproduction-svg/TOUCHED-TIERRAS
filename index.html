@@ -38,7 +38,7 @@
   nav a::after { content: ''; position: absolute; bottom: -2px; left: 0; width: 0; height: 1px; background: var(--deep-rose); transition: width 0.3s; }
   nav a:hover { color: var(--deep-rose); }
   nav a:hover::after { width: 100%; }
-  .hero { position: relative; min-height: 100vh; display: flex; align-items: center; justify-content: center; flex-direction: column; text-align: center; padding: 8rem 2rem 4rem; background: url("images/hero/hero_group_photo.jpg") center bottom / cover no-repeat; overflow: hidden; }
+  .hero { position: relative; min-height: 100vh; display: flex; align-items: center; justify-content: center; flex-direction: column; text-align: center; padding: 8rem 2rem 4rem; background: var(--cream); overflow: hidden; }
   .hero::before { content: ''; position: absolute; inset: 0; background: linear-gradient(to bottom, rgba(255,245,247,0.75) 0%, rgba(255,238,244,0.55) 35%, rgba(255,228,240,0.30) 65%, rgba(255,215,232,0.15) 100%); z-index: 0; }
   .hero > *:not(.hero-circle) { position: relative; z-index: 2; }
   .hero-tag { display: inline-block; font-size: 0.85rem; letter-spacing: 0.25em; text-transform: uppercase; color: var(--deep-rose); border: 1px solid var(--rose); padding: 0.4rem 1.2rem; border-radius: 50px; margin-bottom: 2rem; animation: fadeUp 1s ease 0.3s both; background: rgba(255,255,255,0.6); }
@@ -911,7 +911,7 @@
 </div>
 
 <nav>
-  <a href="#"><img src="images/logo/touched_tierras_logo.png" alt="Touched Tierras" style="height:70px;width:auto;"></a>
+  <a href="#" style="font-family:'Playfair Display',serif;font-size:1.2rem;color:var(--deep-rose);text-decoration:none;letter-spacing:0.05em;">Touched Tierras</a>
   <ul>
     <li><a href="#about">About</a></li>
     <li><a href="#book-service">Pricing</a></li>
@@ -924,7 +924,7 @@
 
 <section class="hero">
   <div class="hero-circle" style="z-index:1;"></div>
-  <div class="hero-logo-wrap"><img src="images/logo/touched_tierras_logo.png" alt="Touched Tierras" style="height:280px;width:auto;margin-bottom:1rem;animation:fadeUp 1s ease 0.1s both;filter:drop-shadow(0 4px 24px rgba(232,120,154,0.5)) brightness(1.08);" class="hero-logo"></div>
+  
   <div class="hero-text-wrap">
   <h1>Hair that<br>tells your <em>story</em></h1>
   <p class="hero-sub">Protective styles, braids, locs, and extensions crafted with care and artistry in every strand.</p>
@@ -939,7 +939,7 @@
 <section id="about">
   <div class="about">
     <div class="about-image fade-in">
-      <img class="about-photo" src="images/about/about.jpg" alt="Tierra — Touched Tierras">
+      
       <div class="about-dot"></div>
       <div class="about-ring"></div>
     </div>
@@ -982,8 +982,7 @@
   <div class="svc-covers-grid" id="svcCoversGrid">
     <div class="svc-cover-card fade-in" style="transition-delay:0.00s" onclick="openSvcTab('box-braids-and-knotless')">
       <div class="svc-cover-img">
-        <img src="images/gallery/gallery-01.jpg" alt="Braiding Styles">
-        <div class="svc-cover-overlay"><span class="svc-cover-cta">Browse Braiding Styles →</span></div>
+                <div class="svc-cover-overlay"><span class="svc-cover-cta">Browse Braiding Styles →</span></div>
       </div>
       <div class="svc-cover-info">
         <h3>Braiding Styles</h3>
@@ -992,8 +991,7 @@
     </div>
     <div class="svc-cover-card fade-in" style="transition-delay:0.07s" onclick="openSvcTab('cornrows-and-feed-in')">
       <div class="svc-cover-img">
-        <img src="images/gallery/gallery-23.jpg" alt="Cornrows & Feed-In">
-        <div class="svc-cover-overlay"><span class="svc-cover-cta">Browse Cornrows & Feed-In →</span></div>
+                <div class="svc-cover-overlay"><span class="svc-cover-cta">Browse Cornrows & Feed-In →</span></div>
       </div>
       <div class="svc-cover-info">
         <h3>Cornrows & Feed-In</h3>
@@ -1002,8 +1000,7 @@
     </div>
     <div class="svc-cover-card fade-in" style="transition-delay:0.14s" onclick="openSvcTab('twists-and-locs')">
       <div class="svc-cover-img">
-        <img src="images/gallery/gallery-31.jpg" alt="Twists & Locs">
-        <div class="svc-cover-overlay"><span class="svc-cover-cta">Browse Twists & Locs →</span></div>
+                <div class="svc-cover-overlay"><span class="svc-cover-cta">Browse Twists & Locs →</span></div>
       </div>
       <div class="svc-cover-info">
         <h3>Twists & Locs</h3>
@@ -1012,8 +1009,7 @@
     </div>
     <div class="svc-cover-card fade-in" style="transition-delay:0.21s" onclick="openSvcTab('braided-updos-and-ponytails')">
       <div class="svc-cover-img">
-        <img src="images/gallery/gallery-34.jpg" alt="Braided Updos & Ponytails">
-        <div class="svc-cover-overlay"><span class="svc-cover-cta">Browse Braided Updos & Ponytails →</span></div>
+                <div class="svc-cover-overlay"><span class="svc-cover-cta">Browse Braided Updos & Ponytails →</span></div>
       </div>
       <div class="svc-cover-info">
         <h3>Braided Updos & Ponytails</h3>
@@ -1022,8 +1018,7 @@
     </div>
     <div class="svc-cover-card fade-in" style="transition-delay:0.28s" onclick="openSvcTab('kids-styles')">
       <div class="svc-cover-img">
-        <img src="images/gallery/gallery-35.jpg" alt="Kids Styles">
-        <div class="svc-cover-overlay"><span class="svc-cover-cta">Browse Kids Styles →</span></div>
+                <div class="svc-cover-overlay"><span class="svc-cover-cta">Browse Kids Styles →</span></div>
       </div>
       <div class="svc-cover-info">
         <h3>Kids Styles</h3>
@@ -1047,174 +1042,26 @@
     <div class="lb-panel" id="lbpanel-box-braids-and-knotless" style="display:none">
       <p class="lb-panel-sub">Box Braids · Knotless · Feed-In · Micro Braids</p>
       <div class="lb-grid">
-            <div class="lb-item fade-in" style="transition-delay:0.00s">
-              <img src="images/gallery/gallery-01.jpg" alt="Braiding Styles" loading="lazy">
-              <div class="lb-overlay"><span>View</span></div>
-            </div>
-            <div class="lb-item fade-in" style="transition-delay:0.04s">
-              <img src="images/gallery/gallery-02.jpg" alt="Braiding Styles" loading="lazy">
-              <div class="lb-overlay"><span>View</span></div>
-            </div>
-            <div class="lb-item fade-in" style="transition-delay:0.08s">
-              <img src="images/gallery/gallery-03.jpg" alt="Braiding Styles" loading="lazy">
-              <div class="lb-overlay"><span>View</span></div>
-            </div>
-            <div class="lb-item fade-in" style="transition-delay:0.12s">
-              <img src="images/gallery/gallery-04.jpg" alt="Braiding Styles" loading="lazy">
-              <div class="lb-overlay"><span>View</span></div>
-            </div>
-            <div class="lb-item fade-in" style="transition-delay:0.16s">
-              <img src="images/gallery/gallery-05.jpg" alt="Braiding Styles" loading="lazy">
-              <div class="lb-overlay"><span>View</span></div>
-            </div>
-            <div class="lb-item fade-in" style="transition-delay:0.20s">
-              <img src="images/gallery/gallery-06.jpg" alt="Braiding Styles" loading="lazy">
-              <div class="lb-overlay"><span>View</span></div>
-            </div>
-            <div class="lb-item fade-in" style="transition-delay:0.24s">
-              <img src="images/gallery/gallery-07.jpg" alt="Braiding Styles" loading="lazy">
-              <div class="lb-overlay"><span>View</span></div>
-            </div>
-            <div class="lb-item fade-in" style="transition-delay:0.28s">
-              <img src="images/gallery/gallery-08.jpg" alt="Braiding Styles" loading="lazy">
-              <div class="lb-overlay"><span>View</span></div>
-            </div>
-            <div class="lb-item fade-in" style="transition-delay:0.32s">
-              <img src="images/gallery/gallery-09.jpg" alt="Braiding Styles" loading="lazy">
-              <div class="lb-overlay"><span>View</span></div>
-            </div>
-            <div class="lb-item fade-in" style="transition-delay:0.36s">
-              <img src="images/gallery/gallery-10.jpg" alt="Braiding Styles" loading="lazy">
-              <div class="lb-overlay"><span>View</span></div>
-            </div>
-            <div class="lb-item fade-in" style="transition-delay:0.40s">
-              <img src="images/gallery/gallery-11.jpg" alt="Braiding Styles" loading="lazy">
-              <div class="lb-overlay"><span>View</span></div>
-            </div>
-            <div class="lb-item fade-in" style="transition-delay:0.44s">
-              <img src="images/gallery/gallery-12.jpg" alt="Braiding Styles" loading="lazy">
-              <div class="lb-overlay"><span>View</span></div>
-            </div>
-            <div class="lb-item fade-in" style="transition-delay:0.48s">
-              <img src="images/gallery/gallery-13.jpg" alt="Braiding Styles" loading="lazy">
-              <div class="lb-overlay"><span>View</span></div>
-            </div>
-            <div class="lb-item fade-in" style="transition-delay:0.52s">
-              <img src="images/gallery/gallery-14.jpg" alt="Braiding Styles" loading="lazy">
-              <div class="lb-overlay"><span>View</span></div>
-            </div>
-            <div class="lb-item fade-in" style="transition-delay:0.56s">
-              <img src="images/gallery/gallery-14.jpg" alt="Braiding Styles" loading="lazy">
-              <div class="lb-overlay"><span>View</span></div>
-            </div>
-            <div class="lb-item fade-in" style="transition-delay:0.60s">
-              <img src="images/gallery/gallery-15.jpg" alt="Braiding Styles" loading="lazy">
-              <div class="lb-overlay"><span>View</span></div>
-            </div>
-            <div class="lb-item fade-in" style="transition-delay:0.64s">
-              <img src="images/gallery/gallery-16.jpg" alt="Braiding Styles" loading="lazy">
-              <div class="lb-overlay"><span>View</span></div>
-            </div>
-            <div class="lb-item fade-in" style="transition-delay:0.68s">
-              <img src="images/gallery/gallery-17.jpg" alt="Braiding Styles" loading="lazy">
-              <div class="lb-overlay"><span>View</span></div>
-            </div>
-            <div class="lb-item fade-in" style="transition-delay:0.72s">
-              <img src="images/gallery/gallery-18.jpg" alt="Braiding Styles" loading="lazy">
-              <div class="lb-overlay"><span>View</span></div>
-            </div>
-            <div class="lb-item fade-in" style="transition-delay:0.76s">
-              <img src="images/gallery/gallery-19.jpg" alt="Braiding Styles" loading="lazy">
-              <div class="lb-overlay"><span>View</span></div>
-            </div>
-            <div class="lb-item fade-in" style="transition-delay:0.80s">
-              <img src="images/gallery/gallery-20.jpg" alt="Braiding Styles" loading="lazy">
-              <div class="lb-overlay"><span>View</span></div>
-            </div>
-            <div class="lb-item fade-in" style="transition-delay:0.84s">
-              <img src="images/gallery/gallery-21.jpg" alt="Braiding Styles" loading="lazy">
-              <div class="lb-overlay"><span>View</span></div>
-            </div>
-            <div class="lb-item fade-in" style="transition-delay:0.88s">
-              <img src="images/gallery/gallery-22.jpg" alt="Braiding Styles" loading="lazy">
-              <div class="lb-overlay"><span>View</span></div>
-            </div>
       </div>
     </div>
     <div class="lb-panel" id="lbpanel-cornrows-and-feed-in" style="display:none">
       <p class="lb-panel-sub">Stitch Braids · Freestyle · Geometric Parting</p>
       <div class="lb-grid">
-            <div class="lb-item fade-in" style="transition-delay:0.00s">
-              <img src="images/gallery/gallery-23.jpg" alt="Cornrows & Feed-In" loading="lazy">
-              <div class="lb-overlay"><span>View</span></div>
-            </div>
-            <div class="lb-item fade-in" style="transition-delay:0.04s">
-              <img src="images/gallery/gallery-24.jpg" alt="Cornrows & Feed-In" loading="lazy">
-              <div class="lb-overlay"><span>View</span></div>
-            </div>
-            <div class="lb-item fade-in" style="transition-delay:0.08s">
-              <img src="images/gallery/gallery-25.jpg" alt="Cornrows & Feed-In" loading="lazy">
-              <div class="lb-overlay"><span>View</span></div>
-            </div>
-            <div class="lb-item fade-in" style="transition-delay:0.12s">
-              <img src="images/gallery/gallery-26.jpg" alt="Cornrows & Feed-In" loading="lazy">
-              <div class="lb-overlay"><span>View</span></div>
-            </div>
-            <div class="lb-item fade-in" style="transition-delay:0.16s">
-              <img src="images/gallery/gallery-27.jpg" alt="Cornrows & Feed-In" loading="lazy">
-              <div class="lb-overlay"><span>View</span></div>
-            </div>
-            <div class="lb-item fade-in" style="transition-delay:0.20s">
-              <img src="images/gallery/gallery-28.jpg" alt="Cornrows & Feed-In" loading="lazy">
-              <div class="lb-overlay"><span>View</span></div>
-            </div>
-            <div class="lb-item fade-in" style="transition-delay:0.24s">
-              <img src="images/gallery/gallery-29.jpg" alt="Cornrows & Feed-In" loading="lazy">
-              <div class="lb-overlay"><span>View</span></div>
-            </div>
-            <div class="lb-item fade-in" style="transition-delay:0.28s">
-              <img src="images/gallery/gallery-30.jpg" alt="Cornrows & Feed-In" loading="lazy">
-              <div class="lb-overlay"><span>View</span></div>
-            </div>
       </div>
     </div>
     <div class="lb-panel" id="lbpanel-twists-and-locs" style="display:none">
       <p class="lb-panel-sub">Senegalese · Passion · Spring · Marley · Starter Locs</p>
       <div class="lb-grid">
-            <div class="lb-item fade-in" style="transition-delay:0.00s">
-              <img src="images/gallery/gallery-31.jpg" alt="Twists & Locs" loading="lazy">
-              <div class="lb-overlay"><span>View</span></div>
-            </div>
-            <div class="lb-item fade-in" style="transition-delay:0.04s">
-              <img src="images/gallery/gallery-32.jpg" alt="Twists & Locs" loading="lazy">
-              <div class="lb-overlay"><span>View</span></div>
-            </div>
-            <div class="lb-item fade-in" style="transition-delay:0.08s">
-              <img src="images/gallery/gallery-33.jpg" alt="Twists & Locs" loading="lazy">
-              <div class="lb-overlay"><span>View</span></div>
-            </div>
       </div>
     </div>
     <div class="lb-panel" id="lbpanel-braided-updos-and-ponytails" style="display:none">
       <p class="lb-panel-sub">Sleek Ponytails · Special Occasion · Bridal · Updo Sets</p>
       <div class="lb-grid">
-            <div class="lb-item fade-in" style="transition-delay:0.00s">
-              <img src="images/gallery/gallery-34.jpg" alt="Braided Updos & Ponytails" loading="lazy">
-              <div class="lb-overlay"><span>View</span></div>
-            </div>
       </div>
     </div>
     <div class="lb-panel" id="lbpanel-kids-styles" style="display:none">
       <p class="lb-panel-sub">Box Braids · Cornrows · Twists · Natural Styles</p>
       <div class="lb-grid">
-            <div class="lb-item fade-in" style="transition-delay:0.00s">
-              <img src="images/gallery/gallery-35.jpg" alt="Kids Styles" loading="lazy">
-              <div class="lb-overlay"><span>View</span></div>
-            </div>
-            <div class="lb-item fade-in" style="transition-delay:0.04s">
-              <img src="images/gallery/gallery-36.jpg" alt="Kids Styles" loading="lazy">
-              <div class="lb-overlay"><span>View</span></div>
-            </div>
       </div>
     </div>
   </div>
@@ -1466,7 +1313,7 @@
 </section>
 
 <footer>
-  <img src="images/logo/touched_tierras_logo.png" alt="Touched Tierras" style="height:55px;width:auto;filter:brightness(1.1);">
+  <span style="font-family:'Playfair Display',serif;font-size:1.1rem;color:var(--rose);letter-spacing:0.05em;">Touched Tierras</span>
   <div>📍 Your City, State &nbsp;·&nbsp; @tierra___james92</div>
   <div class="footer-links">
     <a href="#">Instagram</a>
